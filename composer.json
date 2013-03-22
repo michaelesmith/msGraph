@@ -1,0 +1,26 @@
+{
+    "name": "michaelesmith/datetime",
+    "version": "0.1",
+    "description": "PHP Graph data structure",
+    "keywords": ["graph", "node"],
+    "homepage": "http://michaelsmithonline.blogspot.com/p/graph.html",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Smith",
+            "email": "sitecross@gmail.com",
+            "homepage": "http://michaelsmithonline.blogspot.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/michaelesmith/msGraph/issues"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "MS\\Graph": "src/" }
+    },
+    "minimum-stability": "beta"
+}
